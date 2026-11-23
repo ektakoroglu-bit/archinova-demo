@@ -1,0 +1,17 @@
+{
+  "demoModu": true,
+  "commit": "3b8065d732b77e7626b41549addc27b92b455840",
+  "kirli": false,
+  "tur": {
+    "pano8k": [],
+    "sha256": "be7750439a006732c131ed076b0f92f082339d9c85d4571cb0ec5143f6812f1d",
+    "yayilimSha256": "efb5203974f2b9da44d4729b62d926fc24eb678889b05af4024fb5b5bbcaf7c6",
+    "kaynakSha": "9d8f762c5e7ac73603ccb87418c73b82368879de"
+  },
+  "veri": {
+    "dosya": "veri/proje.json",
+    "sha256": "8084c92ac4e960674bc53ce6aae92560bb7aa9fc54842852192c456350541411",
+    "bolum": 94,
+    "blok": 4
+  }
+}

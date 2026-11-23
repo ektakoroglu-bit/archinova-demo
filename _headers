@@ -1,0 +1,17 @@
+# Cloudflare Pages ve Netlify bu dosyayi okur (ayri yapilandirma gerekmez). Vercel icin vercel.json karsiligi MUSTERI_PAKETI.md'de.
+# Hash'li varliklar (dosya adi icerigiyle degisir): uzun onbellek. index.html ve meta: her seferinde dogrula.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+/index.html
+  Cache-Control: no-cache
+/
+  Cache-Control: no-cache
+/derleme-meta.json
+  Cache-Control: no-cache
+# Hash'siz buyuk gorsel/pano dosyalari: bir saat (icerik degisirse gec yansir)
+/dosya/*
+  Cache-Control: public, max-age=3600
+/pano/*
+  Cache-Control: public, max-age=3600
+/*
+  X-Robots-Tag: noindex, nofollow
